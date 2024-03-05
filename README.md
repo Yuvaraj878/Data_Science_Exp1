@@ -92,9 +92,9 @@ print(data2[outliers_zscore.any(axis=1)])
 ![](./img/15.png)
 ### Data Description :
 ![](./img/16.png)
-### Z-Score :
-![](./img/17.png)
 ### Plot :
+![](./img/17.png)
+### Z-Score :
 ![](./img/18.png)
 # Result
 The Output for Data cleaning and Outlier Detection and Removal are successfully executed.
