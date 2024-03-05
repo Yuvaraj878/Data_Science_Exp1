@@ -85,7 +85,9 @@ sns.boxplot(y="petal_length",data=data2)
 ![](./img/15.png)
 ### Data Description :
 ![](./img/16.png)
-### Plot :
+### Z-Score :
 ![](./img/17.png)
+### Plot :
+![](./img/18.png)
 # Result
 The Output for Data cleaning and Outlier Detection and Removal are successfully executed.
