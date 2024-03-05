@@ -53,6 +53,13 @@ data2.describe()
 import seaborn as sns
 import matplotlib.pyplot as plt
 sns.boxplot(y="petal_length",data=data2)
+def zscore(data, t=3):
+    z_scores = (data - data.mean()) / data.std()
+    outliers = abs(z_scores) > t
+    return outliers
+outliers_zscore = zscore(data2)
+print("Outliers using Z-score method:")
+print(data2[outliers_zscore.any(axis=1)])
 ```
 # Output :
 ## Data Cleaning
